@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="358.0" prefWidth="566.0" style="-fx-background-color: #DDA0DD;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="maiorq10.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="216.0" layoutY="179.0" onAction="#verificar" text="VERIFICAR">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="200.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="42.0" prefWidth="225.0" text="MAIOR QUE ZERO?">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Label>
+      <Label layoutX="63.0" layoutY="118.0" text="DIGITE UM NUMERO:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cxnumero" layoutX="258.0" layoutY="106.0" prefHeight="39.0" prefWidth="208.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cxresult" layoutX="112.0" layoutY="268.0" prefHeight="39.0" prefWidth="390.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>
